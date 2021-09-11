@@ -5,8 +5,7 @@ branches:
   only: 
     - master
 notifications:
-  # in real case you probably want to remove it or set to true
-  email: false
+  email: true
 script:
   - npm install -g @abaplint/cli
   - abaplint
